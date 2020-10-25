@@ -22,7 +22,7 @@ let lastname = document.querySelector('#lastname');
 let result = document.querySelector('.result'); // создаём новый экземпляр запроса XHR
 let xhr = new XMLHttpRequest();
 // адрес, куда мы отправим нашу JSON-строку 
-let url = "p"; 
+let url = "http://a-tagiev.github.io/server/index.php"; 
 // открываем соединение xhr.open("POST", url, true);
 // устанавливаем заголовок — выбираем тип контента, который отправится на сервер, в нашем случае мы явно пишем, что это JSON
 xhr.setRequestHeader("Content-Type", "application/json");
